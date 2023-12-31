@@ -1,4 +1,4 @@
-/* styles.css */
+/** styles.css */
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     line-height: 1.6;
@@ -17,12 +17,35 @@ header {
     padding: 20px;
     text-align: center;
 }
+header nav ul li {
+    list-style-type: none;
+}
+
 section {
     padding: 20px;
 }
 
-.profile-picture {
-    width: 100%;
+/** Big Quote Styles */
+#big-quote blockquote {
+    font-size: 2em;
+    text-align: center;
+    margin: 50px auto;
+}
+
+/** Profile Section Styles */
+#profile .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.profile-image img {
+    width: 150px;
     height: auto;
-    /* Add more styling as needed, e.g., border, margin, etc. */
+    border-radius: 5%;
+}
+
+.profile-text {
+    max-width: 50%;
 }
